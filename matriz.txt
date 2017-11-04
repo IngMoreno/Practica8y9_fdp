@@ -1,0 +1,90 @@
+#include<stdio.h>
+#include<conio.h>
+
+int main()
+{
+
+int c1;
+int r1;
+int c2;
+int r2;
+int contador_renglon;
+int contador_columna;
+int m1 [100][100];
+{
+printf("Este programa resuelve matrices\n\n\n");
+{
+printf("Dame el n\243mero de columnas de la matriz 1\n");
+scanf ("%d",&c1);
+if(c1==0)
+{
+printf("Error\n");
+return 0;
+}
+}
+{
+printf("Dame el n\243mero de renglones de la matriz 1\n");
+scanf ("%d",&r1);
+if(r1==0)
+{
+printf("Error");
+return 0;
+}}
+    
+    
+{
+printf("Dame el n\243mero de columnas de la matriz 2\n");
+scanf ("%d",&c2);
+if(c2==0)
+{
+printf("Error");
+return 0;
+}}
+{
+printf("Dame el n\243mero de renglones de la matriz 2\n");
+scanf ("%d",&r2);
+if(r2==0)
+{
+printf("Error");
+return 0;
+}}
+printf("Comparando valores de columnas de matriz 1 VS renglones matriz 2...\n\n\n");
+getch();
+if(c1==r2)
+{
+printf("La operaci\242n s\241 se puede realizar\n\n");
+getch();
+}
+else
+{ 
+printf("Error\nno son iguales\n\n");
+return 0;
+}
+///////aviso/////////
+
+printf("Dame los valores de la matriz\n\n");
+getch();
+
+//////////////////pedir valores de matrices//////////
+//columna mat1
+
+{
+}
+
+while(contador_columna<r1)
+{
+contador_columna=0;
+
+printf("Dame los valores de la matriz 1\n\n\n");
+
+contador_columna+1;
+
+
+}
+
+}
+printf("Guardado\n\n\n");
+
+getch();
+}
+
